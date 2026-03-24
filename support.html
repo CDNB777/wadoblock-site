@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サポート - 和ドブロック</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Hiragino Sans', sans-serif;
+            max-width: 640px; margin: 0 auto; padding: 24px;
+            line-height: 1.8; color: #333; background: #f5f5f7;
+        }
+        h1 { color: #1B4965; font-size: 1.5em; margin-bottom: 0.5em; }
+        h2 { color: #1B4965; font-size: 1.2em; margin-top: 2em; margin-bottom: 0.5em;
+             border-bottom: 2px solid #1B4965; padding-bottom: 4px; }
+        .faq-item { background: #fff; border-radius: 12px; padding: 16px; margin: 12px 0; }
+        .faq-q { font-weight: bold; color: #1B4965; }
+        .faq-a { margin-top: 8px; }
+        .steps { background: #fff; border-radius: 12px; padding: 16px; margin: 12px 0; }
+        .step { display: flex; gap: 12px; margin: 12px 0; align-items: flex-start; }
+        .step-num {
+            background: #1B4965; color: #fff; width: 28px; height: 28px;
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            font-weight: bold; font-size: 14px; flex-shrink: 0;
+        }
+        .note { background: #FFF3CD; border-radius: 8px; padding: 12px; margin: 12px 0; font-size: 0.9em; }
+        .contact { background: #fff; border-radius: 12px; padding: 16px; margin: 12px 0; text-align: center; }
+        a { color: #1B4965; }
+        footer { text-align: center; margin-top: 2em; font-size: 0.8em; color: #888; }
+    </style>
+</head>
+<body>
+    <h1>和ドブロック サポート</h1>
+    <p>Safari用 広告ブロッカー</p>
+
+    <h2>初期設定</h2>
+    <div class="steps">
+        <div class="step">
+            <div class="step-num">1</div>
+            <div>和ドブロックアプリを開き、「フィルタをダウンロード」をタップ</div>
+        </div>
+        <div class="step">
+            <div class="step-num">2</div>
+            <div>iPhoneの「設定」→「アプリ」→「Safari」→「機能拡張」を開く</div>
+        </div>
+        <div class="step">
+            <div class="step-num">3</div>
+            <div>「和ドブロック」の項目をすべてオンにする（Content Blocker と Web Extension の両方）</div>
+        </div>
+        <div class="step">
+            <div class="step-num">4</div>
+            <div>Safariを完全に閉じて（アプリスイッチャーからも消す）、再度開く</div>
+        </div>
+    </div>
+
+    <h2>よくある質問</h2>
+
+    <div class="faq-item">
+        <p class="faq-q">Q. 広告がブロックされません</p>
+        <p class="faq-a">以下を順番に確認してください。<br>
+        1. 設定 → アプリ → Safari → 機能拡張 → 和ドブロックが「オン」<br>
+        2. アプリでフィルタが正常にダウンロードされている（「フィルタを更新」をタップ）<br>
+        3. Safariをアプリスイッチャーから完全に閉じて再度開く<br>
+        上記で解決しない場合は、iPhoneを再起動してみてください。</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">Q. 特定のサイトが正しく表示されません</p>
+        <p class="faq-a">一部のサイトでは広告ブロックにより表示が崩れる場合があります。アプリの「ホワイトリスト」画面で右上の「+」からそのサイトのドメイン（例: example.com）を追加すると、そのサイトでは広告ブロックが無効になります。</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">Q. 特定のサイトだけ広告を表示したい</p>
+        <p class="faq-a">アプリの「ホワイトリスト」機能をお使いください。ホワイトリストに追加したサイトでは広告ブロックが無効になり、サイト運営者を応援できます。</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">Q. フィルタはどのくらいの頻度で更新すればいいですか？</p>
+        <p class="faq-a">2週間に1回程度を推奨しています。アプリを開いて「フィルタを更新」をタップするだけです。最新の広告パターンに対応するため、定期的な更新をおすすめします。</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">Q. VPNは必要ですか？</p>
+        <p class="faq-a">いいえ、不要です。和ドブロックはSafariの機能拡張として動作するため、VPN接続は一切必要ありません。通信速度への影響もありません。</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">Q. バッテリーへの影響はありますか？</p>
+        <p class="faq-a">ほとんどありません。むしろ広告の読み込みがなくなるため、バッテリー消費が軽減される場合があります。</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">Q. Safari以外のブラウザ（Chrome、Firefoxなど）に対応していますか？</p>
+        <p class="faq-a">いいえ、Safariのみ対応しています。iOSの仕様により、広告ブロック機能拡張はSafariでのみ利用可能です。</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">Q. YouTube等の動画広告はブロックできますか？</p>
+        <p class="faq-a">YouTubeアプリ内の動画広告はブロックできません。Safariで再生するウェブページ上のバナー広告やポップアップ広告はブロックされます。</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">Q. 「広告ブロックを解除してください」と表示されます</p>
+        <p class="faq-a">和ドブロックは多くのサイトでこのような壁（アンチアドブロック）に自動で対応しています。もし壁が表示されて閲覧できない場合は、ホワイトリストにサイトを追加するか、下記メールアドレスまでサイト名をお知らせください。次回更新で対応いたします。</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">Q. 個人情報は収集されますか？</p>
+        <p class="faq-a">いいえ、一切収集しません。和ドブロックはネットワーク通信を行わず（フィルタダウンロード時を除く）、閲覧履歴やデータを外部に送信することはありません。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご確認ください。</p>
+    </div>
+
+    <div class="faq-item">
+        <p class="faq-q">Q. 対応しているiOSバージョンは？</p>
+        <p class="faq-a">iOS 16以降に対応しています。</p>
+    </div>
+
+    <h2>お問い合わせ</h2>
+    <div class="contact">
+        <p>上記で解決しない場合はお気軽にご連絡ください。</p>
+        <p>特定のサイトで広告が残っている場合、サイト名をお知らせいただければ次回更新で対応いたします。</p>
+        <p style="margin-top: 12px;">
+            <a href="mailto:wadoblock.support@gmail.com">wadoblock.support@gmail.com</a>
+        </p>
+    </div>
+
+    <footer>
+        <p><a href="privacy.html">プライバシーポリシー</a></p>
+        <p>&copy; 2026 CDNB</p>
+    </footer>
+</body>
+</html>
