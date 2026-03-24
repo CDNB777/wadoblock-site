@@ -1,0 +1,135 @@
+! Title: Wadoblock Custom Rules
+! Description: Supplementary filter rules for Japanese sites, updated daily.
+! Homepage: https://github.com/CDNB777/wadoblock-site
+! Last modified: 2026-03-24
+! Expires: 1 day
+
+! =====================================================================
+! Japanese Ad Networks (supplement to AdGuard Japanese filter)
+! =====================================================================
+
+! --- Fluct / Adingo ---
+||fluct.jp^
+||adingo.jp^$domain=~109cinemas.net|~japan.techinsight.jp
+###fluct_overlay
+##.adingoFluctOverlay
+##.ad_adingo
+
+! --- nend ---
+||nend.net^
+||nend.jp^
+##.nend_ad
+##[data-nend]
+
+! --- i-mobile ---
+||i-mobile.co.jp^
+||adpds.net^
+##.imobile_ad
+
+! --- MicroAd ---
+||microad.co.jp^
+||microad.jp^
+||send.microad.jp^
+##.microad_ad
+##[data-microad]
+
+! --- Zucks ---
+||zucks.net^
+||zucks.co.jp^
+##.zucks-ad
+
+! --- Geniee SSP ---
+||geniee.co.jp^
+||genieesspv.jp^
+||corp.geniee.co.jp^
+##.geniee-ad
+
+! --- AMoAd ---
+||amoad.com^
+##.amoad_frame
+
+! --- Logly lift ---
+||logly.co.jp^
+||loglylift.com^
+##.logly-ad
+##.logly-lift
+
+! --- Outbrain / Taboola ---
+||outbrain.com^
+||outbrainimg.com^
+||taboola.com^
+||taboolacdn.com^
+##.OUTBRAIN
+##.trc_related_container
+##.taboola-widget
+
+! --- Other ad networks ---
+||ad-stir.com^
+||ad-generation.jp^
+||impact-ad.jp^
+||unitag.jp^
+||yimg.jp/images/ads/
+||yahoo-mbga.jp^$third-party
+||yads.c.yimg.jp^
+
+! --- Tracking ---
+||b.hatena.ne.jp/entry/button/
+||treasure-data.com^$third-party
+||arm-data.dl.ad-shield.io^
+
+! =====================================================================
+! Adult/Piracy site ad networks (high rotation)
+! =====================================================================
+
+! --- ExoClick (major adult ad network) ---
+||exoclick.com^
+||exosrv.com^
+||realsrv.com^
+
+! --- TrafficStars ---
+||trafficstars.com^
+||tsyndicate.com^
+||tsstatic.com^
+
+! --- PopAds / PopCash ---
+||popads.net^
+||popcash.net^
+||popunderjs.com^
+
+! --- PropellerAds / Monetag ---
+||propellerads.com^
+||propeller-tracking.com^
+||monetag.com^
+||onclicmax.com^
+
+! --- HilltopAds ---
+||hilltopads.com^
+
+! --- JuicyAds ---
+||juicyads.com^
+
+! --- A-Ads (crypto) ---
+||a-ads.com^
+
+! --- EroAdvertising ---
+||eroadvertising.com^
+
+! =====================================================================
+! Google Vignette interstitial suppression
+! =====================================================================
+##.google-auto-placed
+##.ap_container
+
+! =====================================================================
+! Site-specific rules (updated frequently)
+! =====================================================================
+
+! --- Livedoor Blog specific ---
+blog.jp,livedoor.jp,livedoor.com##.ad-area-b
+blog.jp,livedoor.jp,livedoor.com##.ad-area-t
+blog.jp,livedoor.jp,livedoor.com##.blog-ad
+
+! --- 5ch specific ---
+5ch.net,itest.5ch.io##.ad--right
+5ch.net,itest.5ch.io##.ad--infeed
+5ch.net,itest.5ch.io##[class^="ad_"]
