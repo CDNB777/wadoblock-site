@@ -107,6 +107,18 @@
 
 ! --- JuicyAds ---
 ||juicyads.com^
+||jads.co^
+
+! --- ExoClick related serving domains ---
+||pemsrv.com^
+||magsrv.com^
+
+! --- Popunder / Redirect scripts ---
+||preferencenail.com^
+||puppyderisiverear.com^
+||campfirecroutondecorator.com^
+||holahupa.com^
+||lib.cdnlibjs.com^
 
 ! --- A-Ads (crypto) ---
 ||a-ads.com^
@@ -133,3 +145,15 @@ blog.jp,livedoor.jp,livedoor.com##.blog-ad
 5ch.net,itest.5ch.io##.ad--right
 5ch.net,itest.5ch.io##.ad--infeed
 5ch.net,itest.5ch.io##[class^="ad_"]
+
+! --- mangaraw.ac specific ---
+mangaraw.ac##div[id*="__clb-spot"]
+mangaraw.ac##.center.m5
+
+! --- tokyomotion.net specific ---
+tokyomotion.net##.junk-ad-body
+tokyomotion.net##.boost_footer
+tokyomotion.net##.junkHotTags
+tokyomotion.net##.exo_wrapper
+tokyomotion.net##[id*="exo-video-slider"]
+tokyomotion.net##iframe[id*="container-c39"]
