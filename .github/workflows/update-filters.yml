@@ -1,0 +1,37 @@
+name: Update Custom Filters
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # UTC 3:00 = JST 12:00
+  workflow_dispatch:      # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update-filters:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Download AdGuard Japanese filter
+        run: |
+          curl -sL "https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_7_Japanese/filter.txt" \
+            -o /tmp/adguard_jp.txt
+          echo "Downloaded $(wc -l < /tmp/adguard_jp.txt) lines"
+
+      - name: Run filter update script
+        run: python3 filters/update_filters.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add filters/custom_rules.txt filters/.adguard_baseline_domains.txt
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update custom filters ($(date -u +%Y-%m-%d))"
+            git push
+            echo "Pushed updates."
+          fi
