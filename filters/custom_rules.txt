@@ -136,10 +136,26 @@
 ! Site-specific rules (updated frequently)
 ! =====================================================================
 
-! --- Livedoor Blog specific ---
-blog.jp,livedoor.jp,livedoor.com##.ad-area-b
-blog.jp,livedoor.jp,livedoor.com##.ad-area-t
-blog.jp,livedoor.jp,livedoor.com##.blog-ad
+! --- Livedoor Blog common ad containers ---
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##.ad-area-b
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##.ad-area-t
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##.blog-ad
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##div[class^="google-user-ad"]
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##div[id^="gad-fixed"]
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp###ad_rs
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##div[class*="fluct-unit"]
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##.ninja-recommend-block
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##.blogroll-wrapper
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##.blogroll-wrapper2
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##.ad-center
+
+! --- blog.esuteru.com (はちま起稿) specific ---
+blog.esuteru.com##.ad-siteRanking
+blog.esuteru.com##.ad-aside
+blog.esuteru.com##div.ad
+blog.esuteru.com##.ads-articleTop
+blog.esuteru.com##div[data-cptid]
+blog.esuteru.com##.azrank-sidebar
 
 ! --- 5ch specific ---
 5ch.net,itest.5ch.io##.ad--right
