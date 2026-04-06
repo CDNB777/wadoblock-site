@@ -455,6 +455,7 @@ xxxxxxxx.jp
 yads.c.yimg.jp
 yads.yahoo.co.jp
 yads.yjtag.yahoo.co.jp
+yariman.online
 yicha.jp
 zastag.com
 zucks.net
