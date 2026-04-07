@@ -175,3 +175,10 @@ tokyomotion.net##.junkHotTags
 tokyomotion.net##.exo_wrapper
 tokyomotion.net##[id*="exo-video-slider"]
 tokyomotion.net##iframe[id*="container-c39"]
+tokyomotion.net##iframe[id="exoIMFrame"]
+tokyomotion.net###exoCloseButton
+tokyomotion.net##iframe[src*="juicyads.com"]
+tokyomotion.net##iframe[src*="adserver.juicyads.com"]
+||syndication.realsrv.com^
+||js.juicyads.com^
+||adserver.juicyads.com^
