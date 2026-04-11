@@ -182,3 +182,8 @@ tokyomotion.net##iframe[src*="adserver.juicyads.com"]
 ||syndication.realsrv.com^
 ||js.juicyads.com^
 ||adserver.juicyads.com^
+
+! --- Adult ad CDN domains (rotate frequently, add as discovered) ---
+||playhubconnect.com^
+||bncloudfl.com^
+||cdn.bncloudfl.com^
