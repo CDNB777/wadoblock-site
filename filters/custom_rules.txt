@@ -1,7 +1,7 @@
 ! Title: Wadoblock Custom Rules
 ! Description: Supplementary filter rules for Japanese sites, updated daily.
 ! Homepage: https://github.com/CDNB777/wadoblock-site
-! Last modified: 2026-04-15
+! Last modified: 2026-04-16
 ! Expires: 1 day
 
 ! =====================================================================
@@ -139,6 +139,24 @@
 ! =====================================================================
 ! Site-specific rules (updated frequently)
 ! =====================================================================
+
+! --- Livedoor Blog: Block Google ad delivery (prevents vignette + inline ads) ---
+||pagead2.googlesyndication.com^$domain=blog.jp|livedoor.jp|livedoor.com|doorblog.jp
+||tpc.googlesyndication.com^$domain=blog.jp|livedoor.jp|livedoor.com|doorblog.jp
+||googleads.g.doubleclick.net^$domain=blog.jp|livedoor.jp|livedoor.com|doorblog.jp
+||securepubads.g.doubleclick.net^$domain=blog.jp|livedoor.jp|livedoor.com|doorblog.jp
+||googletagservices.com^$domain=blog.jp|livedoor.jp|livedoor.com|doorblog.jp
+||googletag.g.doubleclick.net^$domain=blog.jp|livedoor.jp|livedoor.com|doorblog.jp
+||fundingchoicesmessages.google.com^$domain=blog.jp|livedoor.jp|livedoor.com|doorblog.jp
+
+! --- Livedoor Blog: Google AdSense/GPT containers ---
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##ins.adsbygoogle
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##[data-ad-slot]
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##[id^="div-gpt-ad"]
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##iframe[id^="google_ads_iframe"]
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##ins[data-ad-format="interstitial"]
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##[data-google-vignette]
+blog.jp,livedoor.jp,livedoor.com,doorblog.jp##iframe[id^="aswift_"]
 
 ! --- Livedoor Blog common ad containers ---
 blog.jp,livedoor.jp,livedoor.com,doorblog.jp##.ad-area-b
