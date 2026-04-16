@@ -140,6 +140,9 @@
 ! Site-specific rules (updated frequently)
 ! =====================================================================
 
+! --- html-load.com (video ad network seen on Livedoor Blog) ---
+||html-load.com^
+
 ! --- Livedoor Blog: Block Google ad delivery (prevents vignette + inline ads) ---
 ||pagead2.googlesyndication.com^$domain=blog.jp|livedoor.jp|livedoor.com|doorblog.jp
 ||tpc.googlesyndication.com^$domain=blog.jp|livedoor.jp|livedoor.com|doorblog.jp
