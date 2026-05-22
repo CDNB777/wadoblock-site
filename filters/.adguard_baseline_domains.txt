@@ -116,7 +116,6 @@ amaprop.net
 amawidget.yutbr.com
 ambassador-system.mercari.com
 amoad.com
-andhub.jp
 ap.ad-feed.com
 apay-up-banner.com
 api.ad-platform.jmty.jp
@@ -173,6 +172,7 @@ connead.net
 contents-thumbnail2.fc2.com
 cpro.baidu.com
 creative-klepon-3f0ecb.netlify.app
+creative.5ch.fun
 creative.live.tktube.com
 criteo.net
 cross-a.net
