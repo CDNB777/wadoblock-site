@@ -185,6 +185,7 @@ d2-apps.net
 d2swpuhpwp3khd.cloudfront.net
 d3rxg69tzsohtw.cloudfront.net
 d830x8j3o1b2k.cloudfront.net
+dailyrumor-jp.co.in
 daotag.com
 deliver.ads2.iid.jp
 dep.tc
@@ -272,6 +273,7 @@ indexad.net
 indiegogo.jp
 infohimatalk77.net
 infotop.jp
+insiad.com
 ip.affiliate.dmm.com
 itmedia.co.jp
 j-a-net.jp
