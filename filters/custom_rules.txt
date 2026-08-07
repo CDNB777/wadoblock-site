@@ -1,7 +1,7 @@
 ! Title: Wadoblock Custom Rules
 ! Description: Supplementary filter rules for Japanese sites, updated daily.
 ! Homepage: https://github.com/CDNB777/wadoblock-site
-! Last modified: 2026-08-06
+! Last modified: 2026-08-07
 ! Expires: 1 day
 
 ! =====================================================================
@@ -86,6 +86,8 @@
 ||phileweb-amzrank.vercel.app^
 
 ||scrollpop.online^$third-party
+
+||adwell.app^$third-party
 
 ! --- Tracking ---
 ||b.hatena.ne.jp/entry/button/
