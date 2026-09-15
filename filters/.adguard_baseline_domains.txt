@@ -1,4 +1,3 @@
-1pondo.tv
 6ms.biz
 a-affiliate.net
 a-c-engine.com
@@ -64,7 +63,6 @@ adfurikun.jp
 adingo.jp
 adingo.jp.eimg.jp
 adleap.jp
-adlookmanager.com
 adm.shinobi.jp
 adma.xsrv.jp
 admane.jp
@@ -121,8 +119,6 @@ ap.ad-feed.com
 apay-up-banner.com
 api.ad-platform.jmty.jp
 api.ada-cloud.com
-api.primecaster.net
-api.unthem.com
 app.monetrack.com
 appdraft.link
 appget.com
@@ -132,7 +128,6 @@ araklet.mediagene.co.jp
 asia-northeast1-affiliate-pr.cloudfunctions.net
 askfollow.us
 asp.m-live.jp
-assessoriagmv.com
 assistads.net
 assoc-amazon.jp
 astrsk.net
@@ -156,14 +151,10 @@ boost-next.co.jp
 bra.almado.jp
 candy-network.com
 caprofitx.com
-caribbeancom.com
 carrier202205.tokyo
 cdj-dap.s3-ap-northeast-1.amazonaws.com
 cdn-ads.api.tv-tokyo.co.jp
-cdn.alistcloud.com
-cdn.dap.dmm.co.jp
 cdn.lodeo.io
-cdn.mixx-ad.net
 click-count.info
 cnt.affiliate.fc2.com
 colossal.jp
@@ -174,7 +165,6 @@ contents-thumbnail2.fc2.com
 cpro.baidu.com
 creative-klepon-3f0ecb.netlify.app
 creative.5ch.fun
-creative.live.tktube.com
 criteo.net
 cross-a.net
 cu-ad.tbs.co.jp
@@ -184,7 +174,6 @@ d-markets.net
 d1yt8zt4633tzi.cloudfront.net
 d2-apps.net
 d2swpuhpwp3khd.cloudfront.net
-d3rxg69tzsohtw.cloudfront.net
 d830x8j3o1b2k.cloudfront.net
 dailyrumor-jp.co.in
 daotag.com
@@ -194,7 +183,6 @@ deqwas.net
 devo.jp
 digiket.net
 divscripty.net
-dlp4luwpus5kr.cloudfront.net
 dlsite.com
 dmm-rank.com
 dmm.co.jp
@@ -245,13 +233,11 @@ hananokai.tv
 hatoltd.com
 hb.afl.rakuten.co.jp
 hbb.afl.rakuten.co.jp
-heyzo.com
 himasoku.com
 hitgraph.jp
 hogei.info
 https-filtering-check.adtidy.org
 hyadain.com
-hydrangeao.com
 i-mobile.co.jp
 i.imgur.com
 i.socdm.com
@@ -260,7 +246,6 @@ i2i.jp
 i2idata.com
 i2iserv.com
 ias.rakuten.co.jp
-ibento-yahoo.com
 im.c.yimg.jp
 image-rentracks.com
 images-fe.ssl-images-amazon.com
@@ -279,7 +264,6 @@ ip.affiliate.dmm.com
 itmedia.co.jp
 j-a-net.jp
 jalan.net
-japans-offers.com
 jobbox-front.mamastar.jp
 jp1media.com
 js.click-plus.net
@@ -301,19 +285,14 @@ ladsp.jp
 lamp-shade.net
 lifeedly.com
 line-e.com
-line-jp.live
 link-ag.net
 link-medias.com
 link-trade.net
 linoee.com
-live-lb.cc
-live-lr.cc
-live-qj.cc
 liveads.jp
 livedoor.jp
 llnwd.net
 lmadps.jp
-lucky-website.com
 m-live.jp
 maio.jp
 managedweb.net
@@ -343,7 +322,6 @@ nakanohito.jp
 nend.net
 neofield.click
 new-adtest.pages.dev
-nijigen-erogazou.com
 nkis.nikkei.com
 octopuspop.com
 okbp.xyz
@@ -351,7 +329,6 @@ one.impact-ad.jp
 ota-goods.info
 ov.yahoo.co.jp
 p.permalink-system.com
-pacopacomama.com
 paradise1972.com
 partner.become.co.jp
 pc-koubou.jp
@@ -378,13 +355,11 @@ reajyu.net
 recommender.jp
 recruitbox.media.iid.jp
 redirectvoluum.com
-reemo-ad.jp
 relaido.jp
 rentracks.jp
 roselip-fetish.com
 s-ad.rmp.rakuten.co.jp
 samuraiclick.com
-sankei.click
 sb-hip-happy.ourservice.jp
 scadnet.com
 scrollpop.online
@@ -453,7 +428,6 @@ widget-view.dmm.com
 widget.gooero.jp
 widget.zenback.jp
 world-ad.jp
-x-lift.jp
 x-value.net
 x5.jougennotuki.com
 xml.affiliate.rakuten.co.jp
@@ -464,7 +438,6 @@ yads.yahoo.co.jp
 yads.yjtag.yahoo.co.jp
 yariman.online
 yicha.jp
-zastag.com
 zucks.net
 zucks.net.zimg.jp
 zxcvbnmasdfghjklqwertyuiop.work
