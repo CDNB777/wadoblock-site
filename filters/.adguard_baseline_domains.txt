@@ -236,6 +236,7 @@ hb.afl.rakuten.co.jp
 hbb.afl.rakuten.co.jp
 himasoku.com
 hitgraph.jp
+hmshanyin.com
 hogei.info
 https-filtering-check.adtidy.org
 hyadain.com
