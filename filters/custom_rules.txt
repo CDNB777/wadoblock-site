@@ -1,7 +1,7 @@
 ! Title: Wadoblock Custom Rules
 ! Description: Supplementary filter rules for Japanese sites, updated daily.
 ! Homepage: https://github.com/CDNB777/wadoblock-site
-! Last modified: 2026-10-07
+! Last modified: 2026-10-08
 ! Expires: 1 day
 
 ! =====================================================================
@@ -99,6 +99,8 @@
 ||pa.wew.jp^$third-party
 
 ||hmshanyin.com^$all
+
+||pdftoshokan.com^$script,replace=/if\s*\(\s*Math\.abs\s*\([\$-0-9A-Z_a-z]+-[\$-0-9A-Z_a-z]+\)\s*>\s*[\$-0-9A-Z_a-z]+\s*\*\s*\d+(e\d)?\)/if(0)/
 
 ! --- Tracking ---
 ||b.hatena.ne.jp/entry/button/
