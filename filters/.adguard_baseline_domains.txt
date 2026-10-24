@@ -79,6 +79,7 @@ ads.mediams.mb.softbank.jp
 ads.metropolis.co.jp
 ads.museum.or.jp
 ads.nicovideo.jp
+ads.nijiurachan.net
 ads.pipaffiliates.com
 ads.world-fusigi.net
 adsby.2bet.co.jp
