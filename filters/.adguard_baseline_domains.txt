@@ -81,11 +81,13 @@ ads.museum.or.jp
 ads.nicovideo.jp
 ads.nijiurachan.net
 ads.pipaffiliates.com
+ads.tver.jp
 ads.world-fusigi.net
 adsby.2bet.co.jp
 adserv2.suumo.jp
 adsozai.com
 adstuber.com
+adsvr.tver.jp
 adtechjp.com
 adtest.pages.dev
 advack.net
@@ -214,6 +216,7 @@ fluidplayer.com
 flux-cdn.com
 flux-g.com
 focas.jp
+fod-cm-ad-v.webcdn.stream.ne.jp
 fout.jp
 freeadd.me
 fujckovr.in
